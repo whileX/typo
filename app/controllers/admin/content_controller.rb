@@ -26,6 +26,7 @@ class Admin::ContentController < Admin::BaseController
   def new
     new_or_edit
   end
+  
 
   def edit
     @article = Article.find(params[:id])
